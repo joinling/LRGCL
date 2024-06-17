@@ -205,7 +205,7 @@ def get_best_auc(labels, probs):
 
 if __name__ == '__main__':
     warnings.filterwarnings("ignore")
-    parser = argparse.ArgumentParser(description='GRACE_SupCon')
+    parser = argparse.ArgumentParser(description='LRGCL')
     parser.add_argument("--dataset", type=str, default="yelp",
                         help="Dataset for this model (yelp/amazon/tfinance/tsocial)")
     parser.add_argument("--dtrain_ratio", type=float, default=0.2, help="Training ratio")
